@@ -12,9 +12,9 @@ function App() {
       <div>
         <header className="header">
           <div className="links">
-            <p><a href="zsem.edu.pl" className="windows" target="_blank"><i class="fa-brands fa-windows "></i> Windows</a></p>
-            <p><a href="zsem.edu.pl" className="macos" target="_blank"><i class="fa-brands fa-apple"></i> Mac OS</a></p>
-            <p><a href="zsem.edu.pl" className="linux" target="_blank"><i class="fa-brands fa-linux"></i> Linux</a></p>
+            <p><a href="https://github.com/B-P-Coders/coding-night/releases/download/1.1/Schoo4u-win32-ia32.zip" download className="windows" target="_blank"><i class="fa-brands fa-windows "></i> Windows</a></p>
+            <p><a href="https://github.com/B-P-Coders/coding-night/releases/download/1.1/school4u-darwin-x64.zip" download className="macos" target="_blank"><i class="fa-brands fa-apple"></i> Mac OS</a></p>
+            <p><a href="https://github.com/B-P-Coders/coding-night/releases/download/1.1/Schoo4u-linux-x64.zip" download className="linux" target="_blank"><i class="fa-brands fa-linux"></i> Linux</a></p>
           </div>
           <img src={laptop} className="laptop" alt="laptop" />
           <img src={logo} className="logo" alt="logo" />
