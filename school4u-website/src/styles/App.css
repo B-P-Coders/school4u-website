@@ -31,6 +31,7 @@
     border-style: solid;
     background-position-x: 0%;
     padding: 3vmin;
+    padding-right: 5.1vmin;
     text-decoration: none;
     color: white;
     border-color: #36373b;
@@ -64,6 +65,7 @@
 .macos {
     border: solid;
     padding: 3vmin;
+    padding-right: 6vmin;
     text-decoration: none;
     color: white;
     border-color: #b1b1b1;
@@ -77,6 +79,7 @@
 .linux {
     border: solid;
     padding: 3vmin;
+    padding-right: 8vmin;
     text-decoration: none;
     color: white;
     border-color: rgb(245, 208, 45);
