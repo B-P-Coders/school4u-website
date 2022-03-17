@@ -1,74 +1,94 @@
-
-.header{
-  background-color: #2f6872;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 4vmin;
-  font-family: "Lucida Console", "Courier New", monospace;
+.header {
+    background-color: #2f6872;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vmin;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.links{
-  display: flex;
-  flex-direction: column;
+.links {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
 }
 
-.laptop{
-  size: 40vmin;
-  pointer-events: none;
+.laptop {
+    size: 40vmin;
+    pointer-events: none;
 }
 
-.windows{
-  border: solid;
-  border-radius: 30px;
-  padding: 1.5vmin;
-  text-decoration: none;
-  color:white;
-  border-color: #5865f2;
-  background: #5865f2;
+.links p a {
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
-.macos{
-  border: solid;
-  border-radius: 30px;
-  padding: 1.5vmin;
-  text-decoration: none;
-  color:white;
-  border-color: #5865f2;
-  background: #5865f2;
+.windows {
+    border-style: solid;
+    background-position-x: 0%;
+    padding: 3vmin;
+    text-decoration: none;
+    color: white;
+    border-color: #5865f2;
+    box-shadow: inset 0 0 0 0 #5865f2;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
-.linux{
-  border: solid;
-  border-radius: 30px;
-  padding: 1.5vmin;
-  text-decoration: none;
-  color:white;
-  border-color: #5865f2;
-  background: #5865f2;
+.windows:hover {
+    box-shadow: inset 400px 0 0 0 #5865f2;
 }
 
-.footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 4%;
-  background: rgb(17, 94, 158);
+.macos {
+    border: solid;
+    padding: 3vmin;
+    text-decoration: none;
+    color: white;
+    border-color: #b1b1b1;
+    box-shadow: inset 0 0 0 0 #b1b1b1;
 }
 
-.footer-text{
-  text-align: center;
-  color: white;
-  font-size: 2vmin;
-  margin: 0.8vmin; 
+.macos:hover {
+    box-shadow: inset 400px 0 0 0 #b1b1b1;
 }
 
-.logo{
-  position: fixed;
-  top: 5px;
-  left: 5px;
-  width: 7vmin;
-  height: 6vmin;
+.linux {
+    border: solid;
+    padding: 3vmin;
+    text-decoration: none;
+    color: white;
+    border-color: rgb(245, 208, 45);
+    box-shadow: inset 0 0 0 0 rgb(245, 208, 45);
+}
+
+.linux:hover {
+    box-shadow: inset 400px 0 0 0 rgb(245, 208, 45);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+    background: rgb(17, 94, 158);
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 2vmin;
+    margin: 0.8vmin;
+}
+
+.logo {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 7vmin;
+    height: 6vmin;
 }
