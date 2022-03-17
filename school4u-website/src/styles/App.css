@@ -27,6 +27,23 @@
     transition: ease-out 0.4s;
 }
 
+.github {
+    border-style: solid;
+    background-position-x: 0%;
+    padding: 3vmin;
+    text-decoration: none;
+    color: white;
+    border-color: #36373b;
+    box-shadow: inset 0 0 0 0 #36373b;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.github:hover {
+    box-shadow: inset 400px 0 0 0 #36373b;
+}
+
 .windows {
     border-style: solid;
     background-position-x: 0%;
